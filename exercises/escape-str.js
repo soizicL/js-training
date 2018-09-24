@@ -8,8 +8,8 @@
  */
 
 // Your code :
-const escapeStr = 'hello\nWorld'/"pouet";
-console.log(escapeStr);
+const escapeStr = "'"+'"'+'`'+'/'+'\\';
+
 
 //* Begin of tests
 const assert = require('assert')
