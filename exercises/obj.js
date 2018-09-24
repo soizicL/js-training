@@ -8,7 +8,10 @@
  */
 
 // Your code :
-const obj= {string="1337",number=42,boolean=false,undefined=undefined};
+ const obj={string='1337',
+ number=42,
+ boolean=false,
+ undefined=undefined};
 
 //* Begin of tests
 const assert = require('assert')
