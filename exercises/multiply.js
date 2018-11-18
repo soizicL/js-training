@@ -10,6 +10,25 @@
 
 // Your code :
 
+let a;
+let b;
+
+function multiply (a,b) {
+
+    if (b<0) {
+        return -multiply(a,-b);
+    }
+    
+    let result = 0;
+
+    for (let i=1; i <= b; i++) {
+        result +=a;
+    }
+    return result;
+}
+
+console.log (multiply(12,-22));
+
 //* Begin of tests
 const assert = require('assert')
 
@@ -25,4 +44,6 @@ assert.strictEqual(multiply(0, 0), 0)
 assert.strictEqual(multiply(123, -22), -2706)
 assert.strictEqual(multiply(-22, 123), -2706)
 assert.strictEqual(multiply(-22, -123), 2706)
+
+
 // End of tests */

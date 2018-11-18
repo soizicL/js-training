@@ -7,6 +7,13 @@
  */
 
 // Your code :
+let number1;
+let number2;
+
+function add (number1, number2) {
+    return number1 + number2;
+}
+console.log(2+2);
 
 //* Begin of tests
 const assert = require('assert')
