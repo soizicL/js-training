@@ -25,7 +25,7 @@ function multiply (a,b) {
     return 0;
 }
 
-console.log(multiply(0,-230))
+
 
 //* Begin of tests
 const assert = require('assert')
