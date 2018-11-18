@@ -18,7 +18,7 @@ function abs (number) {
     }
     return number  
 }
-console.log(5);
+
 
 
 //* Begin of tests

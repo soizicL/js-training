@@ -22,7 +22,7 @@ function sign(number) {
             return (0);
         }
  }
-console.log ();
+
 //* Begin of tests
 const assert = require('assert')
 

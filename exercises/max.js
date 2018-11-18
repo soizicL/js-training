@@ -20,7 +20,7 @@ function max(a,b) {
         return b;
     }
 }
-console.log(2,4);
+
 
 //* Begin of tests
 const assert = require('assert')

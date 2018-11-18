@@ -20,7 +20,7 @@ function min(a,b){
         return b; 
     }
 }
-console.log(6,5);
+
 //* Begin of tests
 const assert = require('assert')
 

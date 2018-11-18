@@ -18,7 +18,7 @@ function sameSign(a,b) {
         return false;
     }
 }
-console.log(3,4);
+
 //* Begin of tests
 const assert = require('assert')
 
