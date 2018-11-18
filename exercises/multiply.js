@@ -15,20 +15,17 @@ let b;
 
 function multiply (a,b) {
 
-    if (b<=0) {
+    if (b>0) {
+        return (a +multiply(a,b-1));
+    }
+    else if (b<0) {
+
         return -multiply(a,-b);
     }
-    
-    let result = 0;
-
-    for (let i=1; i <= b; i++) {
-        result +=a;
-    }
-    return result;
+    return 0;
 }
 
-
-console.log(multiply(-22,-123))
+console.log(multiply(0,-230))
 
 //* Begin of tests
 const assert = require('assert')
