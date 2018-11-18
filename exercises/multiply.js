@@ -15,7 +15,7 @@ let b;
 
 function multiply (a,b) {
 
-    if (b<0) {
+    if (b<=0) {
         return -multiply(a,-b);
     }
     
@@ -28,6 +28,7 @@ function multiply (a,b) {
 }
 
 
+console.log(multiply(-22,-123))
 
 //* Begin of tests
 const assert = require('assert')
